@@ -2,6 +2,7 @@
 Nearest Neighbors**
 
 **Table of Contents**
+
 1. Introduction
 2. Project Overview
 3. Prerequisites
@@ -11,6 +12,7 @@ Nearest Neighbors**
 7. Results
    
 **Introduction**
+
 This project focuses on classifying music genres using the Mel Frequency Cep-
 stral Coefficients (MFCC) feature extraction technique and the K-Nearest Neigh-
 bors (KNN) algorithm. Music genre classification is a fundamental task in music
@@ -18,6 +20,7 @@ analysis, and this project serves as an example of how to perform this task usin
 Python.
 
 **Project Overview**
+
 • MFCC Features: The project utilizes the MFCC features of audio files
 to extract relevant characteristics from music tracks.
 • K-Nearest Neighbors: KNN is used as the classification algorithm to
@@ -27,6 +30,7 @@ containing audio features. It includes a script to load this dataset and
 classify music genres.
 
 **Prerequisites**
+
 • Python 3.x
 • Required Python packages (install using pip):
 – python speech features
