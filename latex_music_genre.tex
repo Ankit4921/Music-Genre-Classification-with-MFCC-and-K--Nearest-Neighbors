@@ -1,0 +1,76 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}% For the equation* environment
+\title{sample latex tutorial}
+\author{Rampavan Medipelly}
+\date{October 2023}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+% % We have now added a title, author and date to our first
+% % \section{Introduction}
+% \textbf{greatest}
+% \newline
+% \textit{accident}\\
+% \underline{science}\\
+%  \emph{argument}
+% \includegraphics{images.jpg}  
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.75\textwidth]{images.jpg}
+%     \caption{A nice plot.}
+%     \label{fig:mesh1}
+% \end{figure}
+% \begin{enumerate}
+%   \item The individual entries are indicated with a black dot, a so-called bullet.
+%   \item The text in the entries may be of any length.
+% \end{enumerate}
+% In physics, the mass-energy equivalence is stated
+% by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.\\
+% \begin{equation*}
+% E=m
+% \end{equation*}
+% \[ E=mc^2 \]
+\begin{abstract}
+This is a simple paragraph at the beginning of the
+document. A brief introduction about the main subject.
+\end{abstract}
+
+\section{Introduction}
+After our abstract we can begin the first paragraph, then press ``enter'' twice to start the second one.
+
+
+\begin{center}
+\begin{tabular}{|c |c |c|}
+\hline
+ cell1 & cell2 & cell3 \\
+ cell4 & cell5 & cell6 \\  
+ cell7 & cell8 & cell9  \\
+ \hline
+\end{tabular}
+\end{center}
+
+
+\subsection{First Subsection}
+\section*{Unnumbered Section}
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c||}
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex]
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\
+ 2 & 7 & 78 & 5415 \\
+ 3 & 545 & 778 & 7507 \\
+ 4 & 545 & 18744 & 7560 \\
+ 5 & 88 & 788 & 6344 \\ [1ex]
+/hline
+\end{tabular}
+\caption{Table to test captions and labels.}
+\label{table:data}
+\end{table}
+This line will start a second paragraph.
+\end{document}
