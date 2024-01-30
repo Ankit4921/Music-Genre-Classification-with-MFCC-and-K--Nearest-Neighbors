@@ -35,6 +35,7 @@ classify music genres.
 – librosa
 
 **Usage**
+
 1. Load the dataset: Run the loadDataset function to load your pre-
 processed dataset into memory.
 2. Feature Extraction and Classification:
@@ -45,6 +46,7 @@ and appendEnergy, in the mfcc feat line.
 3. Run the script to classify the music genre.
    
 **Dataset**
+
 This project assumes you have a dataset of pre-processed audio features. The
 dataset should contain MFCC features and genre labels for training and testing.
 
@@ -53,6 +55,7 @@ For a detailed explanation of the code, including how the distance calculation,
 neighbor selection, and genre prediction work, please refer to the video file.
 
 **Results**
+
 The code provides classification results for the given audio file based on the
 trained KNN model. The predicted genre label is output as a result.
 
