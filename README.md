@@ -1,10 +1,9 @@
-**Music Genre Classification with MFCC and K-
-Nearest Neighbors**
+# Music Genre Classification with MFCC and K-Nearest Neighbors
 
-**Table of Contents**
+## Table of Contents
 
-1. Introduction
-2. Project Overview
+- Introduction
+-  Project Overview
 3. Prerequisites
 4. Usage
 5. Dataset
@@ -20,6 +19,8 @@ analysis, and this project serves as an example of how to perform this task usin
 Python.
 
 **Project Overview**
+
+[]()
 
 • MFCC Features: The project utilizes the MFCC features of audio files
 to extract relevant characteristics from music tracks.
